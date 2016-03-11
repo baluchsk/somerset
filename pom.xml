@@ -173,4 +173,11 @@
         </pluginRepository>
     </pluginRepositories>
 
+    <scm>
+        <url>https://github.com/baluchsk/somerset.git</url>
+        <connection>scm:git:ssh://git@github.com/baluchsk/somerset.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/baluchsk/somerset.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>
