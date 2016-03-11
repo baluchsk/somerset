@@ -175,8 +175,8 @@
 
     <scm>
         <url>https://github.com/baluchsk/</url>
-        <connection>scm:git:ssh://git@github.com/baluchsk/somerset.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/baluchsk/somerset.git</developerConnection>
+        <connection>scm:git:https://git@github.com/baluchsk/somerset.git</connection>
+        <developerConnection>scm:git:https://git@github.com/baluchsk/somerset.git</developerConnection>
         <tag>somerset-1.0.0</tag>
     </scm>
 
