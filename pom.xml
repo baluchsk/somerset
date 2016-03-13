@@ -72,6 +72,7 @@
 		          <checkModificationExcludes>
 		            <checkModificationExclude>pom.xml</checkModificationExclude>
         		  </checkModificationExcludes>
+        		  <skip>${skip.deploy.nexus}</skip>	
 		        </configuration>
 		      </plugin>			
 		</plugins>
@@ -185,10 +186,10 @@
     </pluginRepositories>
 
     <scm>
-        <url>https://github.com/baluchsk/</url>
-        <connection>scm:git:https://git@github.com/baluchsk/somerset.git</connection>
-        <developerConnection>scm:git:https://git@github.com/baluchsk/somerset.git</developerConnection>
-        <tag>somerset-1.0.0</tag>
+    	<connection>scm:git:https://github.com/baluchsk/somerset.git</connection>
+    	<url>scm:git:https://github.com/baluchsk/somerset.git</url>
+    	<developerConnection>scm:git:https://github.com/baluchsk/somerset.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
