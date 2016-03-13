@@ -189,4 +189,15 @@
         <tag>HEAD</tag>
     </scm>
 
+	<distributionManagement>
+	    <repository>
+	      <id>myrepository</id>
+	      <url>file:/Users/shahmanbaluch/myrepo/repository</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>myrepository</id>
+	      <url>file:/Users/shahmanbaluch/myrepo/snapshot</url>
+	    </snapshotRepository>
+	  </distributionManagement>
+
 </project>
