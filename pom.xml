@@ -75,6 +75,7 @@
 		            <checkModificationExclude>target/classes/mule-app.properties</checkModificationExclude>
 		            <checkModificationExclude>target/classes/mule-deploy.properties</checkModificationExclude>
 		            <checkModificationExclude>target/classes/somerset.xml</checkModificationExclude>
+		            <checkModificationExclude>target/*</checkModificationExclude>
         		  </checkModificationExcludes>
         		  <skip>${skip.deploy.nexus}</skip>	
 		        </configuration>
