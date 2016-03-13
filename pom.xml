@@ -71,10 +71,10 @@
 		          <tagNameFormat>v@{project.version}</tagNameFormat>
 		          <checkModificationExcludes>
 		            <checkModificationExclude>pom.xml</checkModificationExclude>
-		            <checkModificationExclude>log4j2.xml</checkModificationExclude>
-		            <checkModificationExclude>mule-app.properties</checkModificationExclude>
-		            <checkModificationExclude>mule-deploy.properties</checkModificationExclude>
-		            <checkModificationExclude>somerset.xml</checkModificationExclude>
+		            <checkModificationExclude>target/classes/log4j2.xml</checkModificationExclude>
+		            <checkModificationExclude>target/classes/mule-app.properties</checkModificationExclude>
+		            <checkModificationExclude>target/classes/mule-deploy.properties</checkModificationExclude>
+		            <checkModificationExclude>target/classes/somerset.xml</checkModificationExclude>
         		  </checkModificationExcludes>
         		  <skip>${skip.deploy.nexus}</skip>	
 		        </configuration>
